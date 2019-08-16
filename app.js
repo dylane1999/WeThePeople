@@ -7,7 +7,10 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var quizRouter = require('./routes/quiz');
+var preambleRouter = require('./routes/preamble');
 var article1Router = require('./routes/article1');
+var article2Router = require('./routes/article2');
+var article3Router = require('./routes/article3');
 
 
 
@@ -26,7 +29,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/quiz', quizRouter);
+app.use('/preamble', preambleRouter);
 app.use('/article1', article1Router);
+app.use('/article2', article2Router);
+app.use('/article3', article3Router);
 
 
 
