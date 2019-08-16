@@ -1,0 +1,28 @@
+#main{
+  background-color: whitesmoke;
+}
+
+#header{
+  text-align: center;
+}
+
+#centered{
+  color: rgb(214, 18, 18);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#pre{
+  margin: 10px;
+  color: rgb(123, 135, 240);
+}
+
+#maintext{
+  text-shadow: 2px 2px 8px black;
+  color: white;
+  margin: 10px;
+
+
+}
