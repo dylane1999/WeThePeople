@@ -8,6 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var quizRouter = require('./routes/quiz');
 var article1Router = require('./routes/article1');
+var article4Router = require('./routes/article4');
 
 
 
@@ -27,7 +28,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/quiz', quizRouter);
 app.use('/article1', article1Router);
-
+app.use('/article4', article4Router);
 
 
 // catch 404 and forward to error handler
