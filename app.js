@@ -8,7 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var quizRouter = require('./routes/quiz');
 var article1Router = require('./routes/article1');
-
+var article5Router = require('./routes/article5');
 
 
 var app = express();
@@ -27,6 +27,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/quiz', quizRouter);
 app.use('/article1', article1Router);
+app.use('/article5', article5Router);
 
 
 
