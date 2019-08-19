@@ -1,17 +1,35 @@
-<div id="main">
+<div class="ui segment" id="main">
 
+
+  
   <link rel="stylesheet" type="text/css" href="/css/quiz.css">
 <br>
-<div id="header">
-  <div id="centered">QUIZ</div>
-<img id="pic"  src="/img/readit.png" alt="reading george" height="250px" width="600px"  >
+ <div id="title" class="ui compact centered segment">How Well Do You Know The Consitution ?</div>
+<div id="pic"  >
+<img  src="/img/readit.png" alt="reading george" height="250px" width="600px"  >
 </div>
+<div >
+<!---
+<div class="container">
+<img id="pic"  src="/img/readit.png" alt="reading george" height="250px" width="600px"  >
+  <div class="bottom-left"></div>
+  <div class="top-left"></div>
+  <div class="top-right"></div>
+  <div class="bottom-right"></div>
+  <div id="title" class="centered"><div class="ui segment">
+  <p>QUIZ</p>
+</div></div>
+</div> --->
+
+<!--- <div id="centered">QUIZ</div>
+<div id="header">
+</div>
+--->
 <form action="/quiz" method="post">
   <h5 id="maintext">Capital Punishment/ Death Penalty </h5>
   <pre id="pre">what should we do about the Death Penalty?</pre>
   <ul id="pre">
-    <li><input type="radio" name="q1"
-        value=" biden sanders buttigieg booker harris yang warren beto klobuchar castro gillibrand "> Abolish it </li>
+    <li><input type="radio" name="q1" value=""> Abolish it </li>
     <li><input type="radio" name="q1" value=" ryan "> Halt it — for now</li>
     <li><input type="radio" name="q1" value=" weld bullock trump "> Keep it for limited circumstances</li>
   </ul>
@@ -180,7 +198,7 @@
   <br>
 </form>
 </div>
-
+</div>
 
 <!---
    let biden Counter = 0;
