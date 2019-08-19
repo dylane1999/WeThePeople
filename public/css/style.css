@@ -1,10 +1,26 @@
+#appBody{
+display: grid;
+grid-template-columns: 1fr 3fr 1fr;
+font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+header{
+  color: rgb(243, 247, 250);
+  background-color: cadetblue;
+  background-image: url(/img/constitution.png);
+  background-size: cover;
+  font-size: 70px;
+  padding: 3rem;
+
+  /* order: 0; */
+}
+
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-
-  background-color: whitesmoke;
   /* font-family: FF-DIN,sans-serif; */
   background-color:rgb(124, 163, 126);
   margin: 5px;
+  padding: 50px;
 }
 
 a {
@@ -13,6 +29,7 @@ a {
 }
 
 h1{
+  width: 80%;
   font-size: 150px;
   font-weight: normal;
   font-family: 'Croissant One', cursive;
@@ -28,4 +45,17 @@ h3{
 p{
   font-family: 'Lato', sans-serif;
   font-size: 20px;
+}
+
+.emptySideColumn{
+  margin: 20px;
+  background-color: blueviolet;
+}
+
+.item{
+  margin: 1rem;
+}
+
+#linksToOtherFeatures{
+  width: auto;
 }

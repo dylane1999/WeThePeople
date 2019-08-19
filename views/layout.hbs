@@ -34,19 +34,36 @@
   {{!-- body font  --}}
   <script src="/js/home.js"></script>
 </head>
+
+{{!-- for all page titles. use h1 --}}
+{{!-- for all subheaders. use h3 --}}
+
 <body>
+  <header>{{title}}</header>
+  <div id="appBody">
 
-  {{!-- for all page titles. use h1 --}}
-  {{!-- for all subheaders. use h3 --}}
+    <div class="emptySideColumn"></div>
 
-  <div class="ui three item menu">
-    <a class=" item">Editorials</a>
-    <a class="item">Reviews</a>
-    <a class="item">Upcoming Events</a>
+    <div>
+      {{{ body }}}
+    </div>
+
+    <div class="emptySideColumn"></div>
   </div>
-  {{!-- to be removed from layout. here currently for testing and orienting purposes --}}
+</body>
+<footer>
+  <div id="linksToOtherFeatures">
+    <div class="ui three item menu">
+      <a class="item">Editorials</a>
+      <a class="item">Reviews</a>
+      <a class="item">Upcoming Events</a>
+    </div>
+  </div>
+</footer>
 
-  <!--- <nav class="navbar navbar-light bg-warning" id="navbar" >
+
+</html>
+<!--- <nav class="navbar navbar-light bg-warning" id="navbar" >
     <div id="politickbar">
     <a id="politickbar" href="/"><h3 id="politickbar">We The People</h3></a>
     </div>
@@ -67,11 +84,3 @@
   </nav>
 
   --->
-
-  <div>
-    {{{ body }}}
-  </div>
-
-</body>
-
-</html>
