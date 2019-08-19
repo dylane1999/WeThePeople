@@ -7,12 +7,12 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var quizRouter = require('./routes/quiz');
-var preambleRouter = require('./routes/preamble');
-var article1Router = require('./routes/article1');
-var article5Router = require('./routes/article5');
-var article4Router = require('./routes/article4');
-var article2Router = require('./routes/article2');
-var article3Router = require('./routes/article3');
+var preambleRouter = require('./routes/articles/preamble');
+var article1Router = require('./routes/articles/article1');
+var article5Router = require('./routes/articles/article5');
+var article4Router = require('./routes/articles/article4');
+var article2Router = require('./routes/articles/article2');
+var article3Router = require('./routes/articles/article3');
 
 
 var app = express();
