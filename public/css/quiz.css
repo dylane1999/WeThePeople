@@ -20,11 +20,14 @@
 #pre{
   margin: 10px;
   color:  rgba(37, 95, 40, 0.931);
+  list-style-type: none;
 }
 
 #maintext{
-  text-shadow: 2px 2px 8px black;
-  color: rgb(248, 240, 226);
+  -webkit-text-stroke-width: .45px;
+  -webkit-text-stroke-color: black;
+  font-weight: 800;
+  color: rgba(237, 235, 223, 0.87);
   margin: 10px;
 }
 #pic{
