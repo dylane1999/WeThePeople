@@ -5,3 +5,9 @@
 <a href="https://getbootstrap.com/">hahjah</a>
 
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error aliquid esse quibusdam modi sit velit voluptas cumque consequuntur repudiandae eius ratione voluptate illo natus nisi, eaque repellat incidunt quasi reiciendis.</p>
+
+<ul>
+  {{#each articles }}
+  <li><a href="/article/{{ id }}">{{ title }}</a></li>
+  {{/each}}
+</ul>
