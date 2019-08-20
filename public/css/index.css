@@ -2,7 +2,13 @@ body{
   background-image: url(/img/govbuild.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #464646;
 }
+
+
+
+
 
 #pageBody{
 padding: 25px;
@@ -16,4 +22,15 @@ p {
   padding: 1.25rem;
   border-radius: 25px;
   margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-image: url(/img/govbuild.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #464646;
+    background-position: center center;
+  }
 }
