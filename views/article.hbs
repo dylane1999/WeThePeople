@@ -1,10 +1,24 @@
+
+  <link rel="stylesheet" type="text/css" href="/css/article.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+<div id="imagecontent">
 {{ title }}
 <hr>
 <pre>
 Title: {{ article.title }}
 Image: <img src="/img/{{ article.image }}.png" height="200px" width="300px" alt="alt">
 Summary: {{ article.summary }}
+]
+<div class="ui segment">
 Content: {{ article.content }}
+</div>
 Ammended out: {{ article.ammendedout }}
 Ratification: {{ article.ratification }}
+
+<div class="ui grid">
+  <div class="four wide column">{{ article.content }} </div>
+  <div class="four wide column">e</div>
+  <div class="four wide column">e</div>
+</div>
 </pre>
+</div>
