@@ -21,14 +21,14 @@ text-align: center;
 
 #pre{
   margin: 10px;
-  color:  rgba(37, 95, 40, 0.931);
+  color:  rgb(10, 10, 93);
   list-style-type: none;
 }
 
 #maintext{
   -webkit-text-stroke-width: .45px;
   -webkit-text-stroke-color: black;
-  font-weight: 800;
+  font-weight: 1000;
   color: rgba(237, 235, 223, 0.87);
   margin: 10px;
 }
@@ -43,7 +43,7 @@ text-align: center;
 #title{
   position: relative;
   font-size: 10px;
-  color:  rgba(37, 95, 40, 0.931);
+  color:  rgb(10, 10, 93);
   font-weight: normal;
   font-family: 'Croissant One', cursive;
   font-stretch: wider;
