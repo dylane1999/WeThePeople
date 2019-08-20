@@ -1,0 +1,22 @@
+#pagebody{
+  height: 100vh;
+}
+
+#blurb{
+ height: 95vh;
+ width: 100% ;
+ background-image: url(/img/govbuild.jpg);
+ background-size: auto;
+ text-align: start;
+ padding: 40px;
+ border: 0px;
+}
+
+p{
+    color: antiquewhite;
+}
+#indexLearnButton, #indexRtaButton, #indexQuizButton{
+  padding: 1.25rem;
+  border-radius: 25px;
+  margin-bottom: 15px;
+}
