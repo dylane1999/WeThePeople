@@ -23,7 +23,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/css/layoutstyle.css">
   <link
     href="https://fonts.googleapis.com/css?family=Black+Ops+One|Bungee+Inline|Cinzel|Faster+One|Monoton|Poller+One&display=swap"
     rel="stylesheet">
@@ -37,62 +37,29 @@
   <script src="/js/home.js"></script>
 </head>
 
-{{!-- for all page titles. use h1 --}}
-{{!-- for all subheaders. use h3 --}}
-
 <body>
-  {{!-- <header> We the People: <br>
-  <span class="tagline">Pocket Constitution</span>
-  </header> --}}
   <div id="pageBody">
-    <div class="ui top fixed menu">
+    <div id="topMenu" class="ui top fixed menu">
       <div class="item">
-        <img src="/images/logo.png">
+        <img src="/img/readit.png">
       </div>
       <a id="topNavBarItem" class="item">Learn about our Constitution</a>
       <a id="topNavBarItem" class="item">Real Time Action</a>
       <a id="topNavBarItem" class="item">Quiz</a>
     </div>
-
-    <div class="emptySideColumn"></div>
-
     <div id="articleContent">
       {{{ body }}}
     </div>
-
-    <div class="emptySideColumn"></div>
   </div>
 </body>
 <footer>
   <div id="linksToOtherFeatures">
     <div class="ui three item menu">
-      <a class="item">Editorials</a>
-      <a class="item">Reviews</a>
-      <a class="item">Upcoming Events</a>
+      <a class="item">Learn about our Constitution</a>
+      <a class="item">Real Time Action</a>
+      <a class="item">Quiz</a>
     </div>
   </div>
 </footer>
 
-
 </html>
-<!--- <nav class="navbar navbar-light bg-warning" id="navbar" >
-    <div id="politickbar">
-    <a id="politickbar" href="/"><h3 id="politickbar">We The People</h3></a>
-    </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span id="politickbar" class="navbar-toggler-icon"></span>
-      Menu
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link " href="/">Home</a>
-        <a class="nav-item nav-link" href="/quiz">Quiz</a>
-        <a class="nav-item nav-link" href="/quiz/results">Results</a>
-        <a class="nav-item nav-link" href="http://127.0.0.1:5500/testfordyl.html">About us</a>
-        <a class="nav-item nav-link" href="#">Contact</a>
-      </div>
-    </div>
-  </nav>
-
-  --->

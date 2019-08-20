@@ -1,0 +1,53 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color:rgb(255, 255, 255);
+  height: 100%;
+}
+
+#pageBody{
+height: 100vh;
+font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#articleContent{
+  margin-top: 70px;
+}
+
+#topNavBarItem{
+  padding: 15px 30px;
+}
+
+h1{
+  width: 80%;
+  font-size: 150px;
+  font-weight: normal;
+  /* font-family: 'Croissant One', cursive; */
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-stretch: wider;
+}
+
+h3{
+  font-size: 50px;
+  font-weight: lighter;
+  /* font-family: 'Croissant One', cursive; */
+  font-family: 'UnifrakturMaguntia', cursive;
+}
+
+p{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+a {
+  color: black;
+  /* this is arbitrary and can change */
+}
+
+.item{
+  margin: 0.75rem;
+}
+
+#linksToOtherFeatures{
+  width: auto;
+  /* margin: 10px; */
+}
