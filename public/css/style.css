@@ -1,4 +1,4 @@
-#appBody{
+#pageBody{
 display: grid;
 grid-template-columns: 1fr 3fr 1fr;
 font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -6,21 +6,32 @@ font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 
 header{
   color: rgb(243, 247, 250);
-  background-color: cadetblue;
-  background-image: url(/img/constitution.png);
+  background-color: rgb(12, 64, 66);
+  /* background-image: url(/img/passport.jpeg); */
+  background-repeat: no-repeat;
   background-size: cover;
-  font-size: 70px;
+  height: 350px;
+  font-size: 110px;
+  text-align: center;
+  text-shadow: 1px 7px rgb(206, 111, 97);
+  font-family: 'Croissant One', cursive;
+  top: -200px;
   padding: 3rem;
 
   /* order: 0; */
 }
 
+.tagline{
+  font-size: 55px;
+}
+
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   /* font-family: FF-DIN,sans-serif; */
-  background-color:rgb(124, 163, 126);
-  margin: 5px;
-  padding: 50px;
+  background-color:rgb(255, 255, 255);
+  /* margin: 5px; */
+  /* padding: 50px; */
+  height: 100%;
 }
 
 a {
@@ -48,14 +59,21 @@ p{
 }
 
 .emptySideColumn{
-  margin: 20px;
-  background-color: blueviolet;
+  margin: 35px;
+  /* background-color: rgb(94, 84, 62); */
 }
 
 .item{
-  margin: 1rem;
+  margin: 0.75rem;
+}
+
+#blurb{
+  /* background-color: darkorchid; */
+  margin-top: 35px;
+  padding: 40px;
 }
 
 #linksToOtherFeatures{
   width: auto;
+  margin: 10px;
 }
