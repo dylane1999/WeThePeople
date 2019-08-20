@@ -1,11 +1,16 @@
 #pageBody{
-display: grid;
-grid-template-columns: 1fr 3fr 1fr;
 font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 #topNavBarItem{
   padding: 15px 30px;
+}
+
+#head{
+  text-align: center;
+  font-family: 'Felipa', cursive;
+  color: rgb(10, 10, 93);
+
 }
 
 /* header{
@@ -28,6 +33,11 @@ font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 
 .tagline{
   font-size: 55px;
+}
+
+#intro{
+
+  color: rgb(10, 10, 93);
 }
 
 body {
