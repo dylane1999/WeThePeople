@@ -1,21 +1,18 @@
-#pagebody{
-  height: 100vh;
+body{
+  background-image: url(/img/govbuild.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-#blurb{
- height: 95vh;
- width: 100% ;
- background-image: url(/img/govbuild.jpg);
- background-size: auto;
- text-align: start;
- padding: 40px;
- border: 0px;
+#pageBody{
+padding: 25px;
 }
 
-p{
-    color: antiquewhite;
+p {
+  color: antiquewhite;
 }
-#indexLearnButton, #indexRtaButton, #indexQuizButton{
+#indexLearnButton,
+#indexQuizButton {
   padding: 1.25rem;
   border-radius: 25px;
   margin-bottom: 15px;
