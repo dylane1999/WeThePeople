@@ -1,39 +1,39 @@
 <br>
+<div class="ui centered segment">
+  <ul>
+    {{#each data.answer }}
 
-<ul>
-  {{#each data.candidates }}
+    <h5 id="correct">You Got {{ alignment }} % of the Questions Correct </h5>
+    <br>
+    <div class="progress">
+      <div id="matchbar" class="progress-bar" role="progressbar" style="width: {{ alignment }}%"
+        aria-valuenow="{{ alignment }}" aria-valuemin="0" aria-valuemax="100">{{ alignment }}%</div>
+    </div>
+    <br>
+    <hr>
 
-  <li>{{ name }} ( {{ alignment }} % )</li>
-  <br>
+    <br>
+    <div class="ui tiny centered card">
+      <div class="image">
+        <img src="/img/{{pic}}.jpg" alt="{{ pic }}" height="20px" width="10px">
 
-  <div class="progress">
-    <div id="matchbar" class="progress-bar" role="progressbar" style="width: {{ alignment }}%"
-      aria-valuenow="{{ alignment }}" aria-valuemin="0" aria-valuemax="100"></div>
-  </div>
-<br>
-
-  <div class="ui grid">
-    <div class="four wide column">
-      <div class="ui card">
-        <div class="image">
-          <img src="/images/{{ name }}.png" alt="{{ name }}">
-
-        </div>
-        <div class="content">
-          <a class="header">{{ name }}</a>
-        </div>
+      </div>
+      <div class="content">
+        <a class="header">{{ name }}</a>
       </div>
     </div>
-    <div class="one wide column"></div>
-    <div class="nine wide column"> <span>{{bio}}</span></div>
-    <div class="two wide column"></div>
-  </div>
-  <br>
+<div class="ui centered  segment">
+    <h4 class="centered" id="info">{{bio}}</h4>
+</div>
+</div>
+<br>
 
 
 
-  <hr>
-  <br>
-  {{/each}}
+<hr>
+<br>
+{{/each}}
+
 </ul>
-
+</div>
+<br>

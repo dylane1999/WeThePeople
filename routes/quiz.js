@@ -16,7 +16,7 @@ router.post('/', function(req, res) {
 router.get('/results', function(req, res) {
   // use session to pull out the data you calculated above ..
   let results = calculateResults(req.session.data)
-  results.candidates.sort((a, b) => (a.alignment > b.alignment) ? -1 : 1)
+  results.answer.sort((a, b) => (a.alignment > b.alignment) ? -1 : 1)
 
   res.render('results', { data: results })
 })
