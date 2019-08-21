@@ -19,6 +19,7 @@ p {
 }
 #indexLearnButton,
 #indexTimelineButton,
+#indexSearchButton,
 #indexQuizButton {
   padding: 1.25rem;
   border-radius: 25px;
