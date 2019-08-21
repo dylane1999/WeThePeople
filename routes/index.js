@@ -7,4 +7,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'We The People'});
 });
 
+router.get('/search', function(req, res, next){
+  res.render('search')
+})
+
 module.exports = router;

@@ -12,6 +12,7 @@ var educationRouter = require("./routes/education");
 var timelineRouter = require("./routes/timeline");
 var aboutUsRouter = require("./routes/aboutUs");
 
+
 var app = express();
 
 // view engine setup
@@ -58,5 +59,11 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render("error");
 });
+
+// new Lunr index
+
+var documents = 
+
+
 
 module.exports = app;

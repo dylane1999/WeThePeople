@@ -1,0 +1,90 @@
+<div class="ui container">
+    <form class="ui form">
+        <div class="inline fields">
+            <div class="field">
+                <label>Search</label>
+                <input type="text" name="search" placeholder="searching for?">
+                <button class="ui button" type="submit">Search</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<hr>
+
+<div class="ui container">
+    <div id="results"></div>
+</div>
+
+
+</q>
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+{{!-- linking to Lunr^ --}}
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+{{!-- linking to jquery^ --}}
+
+
+<script>
+    let index
+    let documents
+
+    $.get('/js/documents.json', docs => {
+        documents = docs
+
+        index = lunr(function () {
+            this.ref('id')
+            this.field('title')
+            this.field('summary')
+            this.field('image')
+            this.field('content')
+            this.field('ammendedout')
+            this.field('ratification')
+            this.field('tags')
+
+            docs.forEach(function (doc) {
+                this.add(doc)
+            }, this)
+        })
+
+    })
+
+
+    $(document).ready(function() {
+        $('form').on('submit', function(e){
+            e.preventDefault();
+            let searchTerms = $('form').serializeArray()
+            let text = searchTerms[0].value
+
+            let results = index.search(text)
+            let ids = results.map(r => r.ref).map(Number)
+
+            $('#results').empty()
+            ids.map(id => $('#results').append(getHTMLFrom(id)))
+        })
+    })
+
+
+    function getHTMLFrom(id){
+        let doc = documents.find(doc => doc.id === id)
+
+        return `
+            <div class="ui message">
+                <div class="header">
+                    ${ doc.title }
+                </div>
+                <p>${ doc.summary }</p>
+            </div>
+        `
+        //   "id": 12,
+        //   "title": "Amendment Five, Bill of Rights",
+        //   "summary": "Amendment Five, Bill of Rights: Protects you from being held for committing a crime unless you have been indicted correctly by the police.",
+        //   "image": "article12",
+        //   "content": "One section - no amendments applicable. No Person(s): May be charged with a capital, or other, crime without indictment by a Grand Jury except in cases arising in the military forces or the militia when in service in a time or war or public danger. May be subject to the same charge twice (double jeopardy). Shall be compelled in any criminal case to be a witness against himself. Shall be deprived of life, liberty, or property without due process of law. Private property shall be taken for public use without just compensation.",
+        //   "ammendedout": "Nothing has been amended out.",
+        //   "ratification": "12/15/1776"
+
+    }
+    
+</script>
+
