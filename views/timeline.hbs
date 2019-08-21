@@ -3,6 +3,8 @@
 <link rel="stylesheet" type="text/css" href="/css/timeline.css">
 
 <!-- The Timeline -->
+<div id="imagecontent" >
+
 
 <ul class="timeline">
 
@@ -20,10 +22,13 @@
               {{ ratification }}
             </span>
           </span>
+          
         </div>
         <div class="desc">{{ summary }} </div>
-        <img class="ui circular image" src="/img/{{ image }}.png" height="200px" width="250px" alt="alt">
+         <img class="ui circular image" src="/img/{{ image }}.png" height="200px" width="250px" alt="alt">
+       
   </li>
   {{/each}}
 
 </ul>
+</div>
