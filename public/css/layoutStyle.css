@@ -49,10 +49,5 @@ a {
 }
 
 .item{
-  margin: 0.75rem;
-}
-
-#linksToOtherFeatures{
-  width: auto;
-  /* margin: 10px; */
+  margin: 0.75rem 0rem;
 }

@@ -6,6 +6,30 @@
   background-position: center;
   color: black;
   font-size: 18px;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   width: 100%;
- }
+  text-align: center;
+  align-items: center;
+}
+
+#imagecircle {
+  margin-top: 10px;
+  align-self: center;
+  text-align: center;
+}
+
+#titletext {
+  text-align: center;
+  padding: 25px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+#bodyWords{
+  padding: 25px;
+}

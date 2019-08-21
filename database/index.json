@@ -56,9 +56,9 @@
   {
     "id": 6,
     "title": "Article 6",
-    "summary": "Article Six:",
+    "summary": "Article Six: Constitution says that any federal laws that are made according to the Constitution are the supreme laws. That means that state laws that go against federal laws are not valid. Also contains The No Religious Test Clause.",
     "image": "article6",
-    "content": "One section - no amendments applicable.",
+    "content": "One section - no amendments applicable. Establishes the laws and treaties of the United States made in accordance with it as the supreme law of the land, forbids a religious test as a requirement for holding a governmental position, and holds the United States under the Constitution responsible for debts incurred prior to the Union.",
     "ammendedout": "Nothing has been amended out.",
     "ratification": "12/7/1776"
   },
@@ -73,7 +73,7 @@
   },
   {
     "id": 8,
-    "title": "Amendment One, Bill of Rights",
+    "title": "Amendment One",
     "summary": "Amendment One, Bill of Rights: Congress has no right to promote or prohibit any religion. It has no right to prohibit free speech, the press, and the right of people to peacefully assemble and protest.",
     "image": "article8",
     "content": "One section - no amendments applicable. Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.",
@@ -82,7 +82,7 @@
   },
   {
     "id": 9,
-    "title": "Amendment Two, Bill of Rights",
+    "title": "Amendment Two",
     "summary": "Amendment Two, Bill of Rights: States that the right of the people to keep and bear arms shall not be denied or restricted.",
     "image": "article9",
     "content": "One section - no amendments applicable. A well regulated Militia, being necessary to the security of a free State, the right of the people to keep and bear Arms, shall not be infringed.",
@@ -91,7 +91,7 @@
   },
   {
     "id": 10,
-    "title": "Amendment Three, Bill of Rights",
+    "title": "Amendment Three",
     "summary": "Amendment Three, Bill of Rights: states that No owner of any house shall be forced to provide room and/or board for any soldier in time of peace, nor in time of war unless prescribed by law.",
     "image": "article10",
     "content": "One section - no amendments applicable. No Soldier shall, in time of peace be quartered in any house, without the consent of the Owner, nor in time of war, but in a manner to be prescribed by law.",
@@ -100,7 +100,7 @@
   },
   {
     "id": 11,
-    "title": "Amendment Four, Bill of Rights",
+    "title": "Amendment Four",
     "summary": "Amendment Four, Bill of Rights: States that one’s person, house, papers, or effects may be searched or seized except when presented with a legally issued warrant of probable cause supported by oath or affirmation and providing a description of the place to be searched and the persons or things to be seized.",
     "image": "article11",
     "content": "One section - no amendments applicable. The right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated, and no Warrants shall issue, but upon probable cause, supported by Oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized. ",
@@ -109,8 +109,8 @@
   },
   {
     "id": 12,
-    "title": "Amendment Five, Bill of Rights",
-    "summary": "Amendment Five, Bill of Rights: Protects you from being held for committing a crime unless you have been indicted correctly by the police.",
+    "title": "Amendment Five",
+    "summary": "Amendment Five, Bill of Rights: Protects you from being held for committing a crime unless you have been indicted correctly by the police. Ever heard - I plead the fifth!? ",
     "image": "article12",
     "content": "One section - no amendments applicable. No Person(s): May be charged with a capital, or other, crime without indictment by a Grand Jury except in cases arising in the military forces or the militia when in service in a time or war or public danger. May be subject to the same charge twice (double jeopardy). Shall be compelled in any criminal case to be a witness against himself. Shall be deprived of life, liberty, or property without due process of law. Private property shall be taken for public use without just compensation.",
     "ammendedout": "Nothing has been amended out.",
@@ -118,7 +118,7 @@
   },
   {
     "id": 13,
-    "title": "Amendment Six, Bill of Rights",
+    "title": "Amendment Six",
     "summary": "Amendment Six, Bill of Rights: Guarantees a citizen a speedy trial, a fair jury, an attorney if the accused person wants one, and the chance to confront the witnesses who is accusing the defendant of a crime, meaning he or she can see who accused them.",
     "image": "article13",
     "content": "One section - no amendments applicable. In all criminal prosecutions the accused has the right: To a speedy and public trial by an impartial jury of the State and district in which the crime was committed as previously determined by law. To be informed of the nature and cause of the accusation against him. To confront the witnesses against him. To compel the testimony of witnesses in his favor. To have the assistance of counsel for his defense.",
@@ -127,7 +127,7 @@
   },
   {
     "id": 14,
-    "title": "Amendment Seven, Bill of Rights",
+    "title": "Amendment Seven",
     "summary": "Amendment Seven, Bill of Rights: Guarantees a jury trial for civil cases in the federal courts. However, this type of case is usually not heard anymore in the federal court system",
     "image": "article14",
     "content": "One section - no amendments applicable. In all Common Law suits (law defined by prior court ruling, also known as Case Law), concerning $20.00 or more, the accused has the right to a trial by jury. No case tried by jury shall be re-considered in any court of the United States other than by the rules of common law.",
@@ -136,7 +136,7 @@
   },
   {
     "id": 15,
-    "title": "Amendment Eight, Bill of Rights",
+    "title": "Amendment Eight",
     "summary": "Amendment Eight, Bill of Rights: Safeguards Americans against excessive punishments",
     "image": "article15",
     "content": "One section - no amendments applicable. Excessive bail shall not be required, nor excessive fines imposed, nor cruel and unusual punishments inflicted.",
@@ -145,7 +145,7 @@
   },
   {
     "id": 16,
-    "title": "Ammendment Nine, Bill of Rights",
+    "title": "Ammendment Nine",
     "summary": "Ammendment Nine, Bill of Rights: The rights of the people are not limited to just the rights listed in the Constitution.",
     "image": "article16",
     "content": "One section - no amendments applicable. The certain rights enumerated in the Constitution shall not be construed or interpreted in any way that would deny or disparage any other rights retained by the people.",
@@ -154,7 +154,7 @@
   },
   {
     "id": 17,
-    "title": "Amendment Ten, Bill of Rights",
+    "title": "Amendment Ten",
     "summary": "Amendment Ten, Bill of Rights: says that anything that was not given to the Federal Government and not banned by the Constitution is a power of the states.",
     "image": "article17",
     "content": "One section - no amendments applicable. All powers not delegated to the United States by the Constitution nor specifically prohibited to the States by the Constitution are reserved for the States, or for the people.",

@@ -1,24 +1,36 @@
-
-  <link rel="stylesheet" type="text/css" href="/css/article.css">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/article.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
 <div id="imagecontent">
-{{ title }}
-<hr>
-<pre>
-Title: {{ article.title }}
-Image: <img src="/img/{{ article.image }}.png" height="200px" width="300px" alt="alt">
-Summary: {{ article.summary }}
-]
-<div class="ui segment">
-Content: {{ article.content }}
-</div>
-Ammended out: {{ article.ammendedout }}
-Ratification: {{ article.ratification }}
 
-<div class="ui grid">
-  <div class="four wide column">{{ article.content }} </div>
-  <div class="four wide column">e</div>
-  <div class="four wide column">e</div>
-</div>
-</pre>
+  <div id="titletext">
+    <div class="ui segment">
+      {{ article.title }}
+    </div>
+  </div>
+
+  <div class="center">
+    <img class="ui medium circular image" src="/img/{{ article.image }}.png" height="200px" width="300px" alt="alt">
+  </div>
+
+  <div id="bodyWords">
+    {{ article.summary }}
+    <tr>
+      <div class="ui horizontal divider">
+        ☆ ☆ ☆
+      </div>
+    </tr>
+   Summary: {{ article.content }}
+
+    <div class="ui horizontal divider">
+      ☆ ☆ ☆
+    </div>
+    Language Amended Out: {{ article.ammendedout }}
+    <div class="ui horizontal divider">
+      ☆ ☆ ☆
+    </div>
+    Ratification date: {{ article.ratification }}
+    <div class="ui horizontal divider">
+      ☆ ☆ ☆
+    </div>
+  </div>
 </div>
