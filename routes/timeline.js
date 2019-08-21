@@ -6,7 +6,7 @@ let articles = require('../database')
 router.get('/', function(req, res, next) {
   articles = articles.map(a => { a.even = a.id % 2 === 0; return a; } )
   console.log(articles)
-  res.render('timeline', { title: 'Timeliine',  articles });
+  res.render('timeline', { title: 'Timeline',  articles });
 });
 
 module.exports = router;

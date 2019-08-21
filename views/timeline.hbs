@@ -10,19 +10,19 @@
   <li>
     {{#if even }}
     <div class="direction-r">
-    {{else }}
-    <div class="direction-l">
-    {{/if }}
-      <div class="flag-wrapper">
-        <span class="flag">{{ title }}</span>
-        <span class="time-wrapper">
-          <span class="time">
-            {{ ratification }}
+      {{else }}
+      <div class="direction-l">
+        {{/if }}
+        <div class="flag-wrapper">
+          <span class="flag">{{ title }}</span>
+          <span class="time-wrapper">
+            <span class="time">
+              {{ ratification }}
+            </span>
           </span>
-        </span>
-      </div>
-      <div class="desc">{{ summary }}</div>
-    </div>
+        </div>
+        <div class="desc">{{ summary }} </div>
+        <img class="ui circular image" src="/img/{{ image }}.png" height="200px" width="250px" alt="alt">
   </li>
   {{/each}}
 
