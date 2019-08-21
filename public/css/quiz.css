@@ -29,7 +29,7 @@ text-align: center;
   -webkit-text-stroke-width: .45px;
   -webkit-text-stroke-color: black;
   font-weight: 1000;
-  color: rgba(237, 235, 223, 0.87);
+  color: rgb(10, 10, 93);
   margin: 10px;
 }
 #pic{
@@ -42,11 +42,12 @@ text-align: center;
 }
 #title{
   position: relative;
-  font-size: 10px;
+  font-size: 50px;
   color:  rgb(10, 10, 93);
   font-weight: normal;
   font-family: 'Croissant One', cursive;
   font-stretch: wider;
+  text-align: center;
 }
 
 .bottom-left {
@@ -78,4 +79,9 @@ text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#submitButton{
+  background-color: rgb(10, 10, 93);
+  color: antiquewhite;
 }
