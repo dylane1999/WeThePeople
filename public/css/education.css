@@ -3,7 +3,7 @@
   min-height: 100%;
   height: 100%;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   color: black;
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
@@ -13,8 +13,15 @@
   list-style-type: none;
 }
 
+
 a {
   font: black;
+}
+#img{
+  border-radius: 50%;
+}
+#marginize{
+  margin: 15px;
 }
 
 #imagecontent {
