@@ -1,4 +1,4 @@
-#imagecontent {
+ #imagecontent {
   background-image: url("/img/constbg.png");
   min-height: 100%;
   height: 100%;
@@ -10,6 +10,7 @@
   width: 100%;
   text-align: center;
   align-items: center;
+  justify-content: center;
 }
 
 #imagecircle {
@@ -27,7 +28,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 21%;
 }
 
 #bodyWords{
