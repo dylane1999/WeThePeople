@@ -4,19 +4,16 @@
   background-position: center;
   color: black;
   font-size: 18px;
-  font-family: "Charm", cursive;
-}
+  font-family: 'Merriweather', serif;}
 
 .desc {
-font-family: "Montserrat", sans-serif;
-}
+  font-family: 'Merriweather', serif;}
 
 body {
   margin: 0;
   padding: 0;
   color: rgb(50, 50, 50);
-  font-family: "Open Sans", sans-serif;
-  font-size: 112.5%;
+  font-family: 'Merriweather', serif;  font-size: 112.5%;
   line-height: 1.6em;
 }
 
@@ -218,8 +215,7 @@ body {
 .desc {
   margin: 1em 0.75em 0 0;
 
-  font-size: 0.77777em;
-  font-style: italic;
+  font-size: 1em;
   line-height: 1.5em;
 }
 
