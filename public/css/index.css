@@ -33,6 +33,7 @@ p {
   grid-row-start: 5;
   grid-row-end: 6;
   display: flex;
+  justify-content: center;
 }
 
 #indexLearnButton,
