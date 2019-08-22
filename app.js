@@ -16,13 +16,17 @@ var searchRouter = require("./routes/search");
 
 var app = express();
 
+// in memory database of messages and numbers
+app.set("messages", require("./lib/messages.json").text)
+app.set("numbers", require("./lib/messages.json").numbers)
+app.set("index", 0)
+
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "hbs");
 
 app.use(logger("dev"));
 app.use(express.json());
-1;
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
@@ -64,7 +68,7 @@ app.use(function(err, req, res, next) {
 
 // new Lunr index
 
-var documents = 
+//var documents = 
 
 
 
