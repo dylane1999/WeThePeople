@@ -1,4 +1,4 @@
-body{
+body {
   background-image: url(/img/govbuild.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -6,24 +6,57 @@ body{
   background-color: #464646;
 }
 
-
-
-
-
-#pageBody{
-padding: 25px;
+#pageBody {
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 11% 11% 220px 70px auto;
 }
 
 p {
   color: antiquewhite;
+  text-emphasis: bold;
+  text-shadow: antiquewhite;
 }
+
+#indexText {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+#indexButtons {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  display: flex;
+}
+
 #indexLearnButton,
 #indexTimelineButton,
 #indexSearchButton,
 #indexQuizButton {
-  padding: 1.25rem;
+  padding: 1rem;
   border-radius: 25px;
   margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#phoneNumbersFeature {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  font-size: 10px !important;
+}
+
+#submitButton{
+  justify-self: center;
+  align-self: center;
+  text-align: center;
 }
 
 @media only screen and (max-width: 800px) {
