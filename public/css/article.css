@@ -1,16 +1,10 @@
- #imagecontent {
-  background-image: url("/img/constbg.png");
+#imagecontent {
+  background-image: url("/img/constbg.png")  ;
   min-height: 100%;
-  height: 100%;
-  background-size: cover;
   background-position: center;
   color: black;
   font-size: 18px;
-  font-family: "Merriweather", serif;
-  width: 100%;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
+  font-family: "Charm", cursive;
 }
 
 #imagecircle {
