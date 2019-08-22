@@ -1,5 +1,5 @@
 #imagecontent {
-  background-image: url("/img/constbg.png")  ;
+  /*background-image: url("/img/constbg.png")  ;*/
   max-height: 50%;
   background-position: center;
   color: black;
@@ -22,7 +22,7 @@ a {
   margin: 15px;
 }
 
-#imagecontent {
+/*#imagecontent {
   background-image: url("/img/constbg.png");
   min-height: 100%;
   height: 100%;
@@ -30,7 +30,7 @@ a {
   color: black;
   font-size: 18px;
   font-family: 'Merriweather', serif;
- }
+ }*/
 
 
  .cardBody {
