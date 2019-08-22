@@ -34,3 +34,17 @@ a {
   font-size: 18px;
   font-family: 'Merriweather', serif;
  }
+
+
+ .cardBody {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   text-align: center;
+   justify-content: center;
+ }
+
+ #cards{
+   width: 20vw;
+   margin: 15px;
+ }

@@ -9,8 +9,10 @@ var indexRouter = require("./routes/index");
 var quizRouter = require("./routes/quiz");
 const articleRouter = require("./routes/article");
 var educationRouter = require("./routes/education");
-
 var timelineRouter = require("./routes/timeline");
+var aboutUsRouter = require("./routes/aboutUs");
+var searchRouter = require("./routes/search");
+
 
 var app = express();
 
@@ -41,6 +43,8 @@ app.use("/quiz", quizRouter);
 app.use("/article", articleRouter);
 app.use("/education", educationRouter);
 app.use("/timeline", timelineRouter);
+app.use("/aboutUs", aboutUsRouter);
+app.use("/search", searchRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -57,5 +61,11 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render("error");
 });
+
+// new Lunr index
+
+var documents = 
+
+
 
 module.exports = app;

@@ -9,6 +9,7 @@ router.get('/', function(req, res, next) {
 });
 
 
+
 router.post('/', function(req, res) {
   let number = req.body.number
 
@@ -20,6 +21,11 @@ router.post('/', function(req, res) {
   }
 })
 
+
+
+router.get('/search', function(req, res, next){
+  res.render('search')
+})
 
 
 module.exports = router;
