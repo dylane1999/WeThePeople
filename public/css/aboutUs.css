@@ -20,3 +20,9 @@ p, b {
   font-size: 13px;
 }
 
+
+#socialButtons {
+  align-content: left;
+  max-width:400px;
+  
+}
