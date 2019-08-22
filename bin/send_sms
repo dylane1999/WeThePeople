@@ -19,9 +19,14 @@ function send(to, msg) {
   .then(message => console.log(message.sid))
   .catch(message => console.log(message))
   
+  if (messages.next >10){
+    messages.next = 0
+  }
+
 }
 
 messages.numbers.forEach(number => {
+  
   send(number, messages.text[messages.next++])
   
 })
