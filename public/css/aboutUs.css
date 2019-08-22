@@ -1,4 +1,22 @@
-body{
-    background-color: white;
+.thewholebody {
+  font-family: "Charm", cursive;
+  color: black;
+  font-size: 18px;
+  
+}
+p, b {
+  font-family: "Charm", cursive;
+  color: black;
+  font-size: 23px;
+}
+.container {
+  text-align: center;
+  font-family: "Charm", cursive;
+}
+
+.lol {
+  font-family: "Charm", cursive;
+  color: black;
+  font-size: 13px;
 }
 
